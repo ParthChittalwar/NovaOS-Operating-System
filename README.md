@@ -55,21 +55,6 @@ Targeted for bare-metal `x86_64-elf`, NovaOS boots natively via the **Limine 8.x
 
 ---
 
-## 🚦 Milestone Status
-
-| Milestone | Subsystem | Status | Description |
-|---|---|---|---|
-| **M0** | **Environment** | ✅ Complete | Native Windows toolchain setup (LLVM-MinGW, CMake, Ninja, NASM, QEMU). |
-| **M1** | **UEFI Handoff** | ✅ Complete | Bootloader loads ELF64, retrieves memory map + GOP framebuffer, enters higher-half `_start()`. |
-| **M2** | **Long Mode Core** | ✅ Complete | Custom GDT/TSS, IDT with 32 CPU exceptions, NASM ISR trampolines, kernel panic handler. |
-| **M3** | **Memory Management** | ✅ Complete | Bitmap physical memory manager + freestanding `kmalloc`/`kfree` kernel heap. |
-| **M4** | **Drivers & IRQs** | ✅ Complete | 8259A PIC, 100 Hz PIT timer, PS/2 keyboard driver, and framebuffer text console. |
-| **M5** | **Multitasking** | ✅ Complete | Assembly context switcher, TCB allocations, round-robin time-slice scheduler. |
-| **M6** | **Filesystem** | ✅ Complete | Virtual File System (VFS) with RAM disk preloaded with system files. |
-| **M7** | **Kernel Shell** | ✅ Complete | Interactive shell parsing commands with keyboard input & framebuffer display. |
-
----
-
 ## 🛠️ Build & Setup Guide (Windows 11 / Native)
 
 ### Prerequisites
