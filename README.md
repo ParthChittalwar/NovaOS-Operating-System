@@ -7,6 +7,39 @@ Targeted for bare-metal `x86_64-elf`, NovaOS boots natively via the **Limine 8.x
 
 ---
 
+# 📸 NovaOS Screenshots
+
+## 🚀 Boot Screen
+
+<p align="center">
+  <img src="assets/boot-screen.png.png" alt="NovaOS Boot Screen" width="900">
+</p>
+
+---
+
+## 💻 Interactive Shell
+
+<p align="center">
+  <img src="assets/shell-help.png.png" alt="NovaOS Interactive Shell" width="900">
+</p>
+
+---
+
+## 🧠 Memory Information
+
+<p align="center">
+  <img src="assets/shell-meminfo.png.png" alt="NovaOS Memory Information" width="900">
+</p>
+
+---
+
+## 🚨 Kernel Panic (Red Screen of Death)
+
+<p align="center">
+  <img src="assets/kernel-panic.png.png" alt="NovaOS Kernel Panic" width="900">
+</p>
+
+---
 ## 🌟 Key Features & Architecture
 
 - 🚀 **UEFI Boot & Higher-Half Kernel**: Boots directly into Long Mode (64-bit) at virtual base `0xFFFFFFFF80000000`.
