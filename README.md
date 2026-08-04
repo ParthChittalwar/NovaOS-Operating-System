@@ -28,7 +28,7 @@ Targeted for bare-metal `x86_64-elf`, NovaOS boots natively via the **Limine 8.x
 ## 🧠 Memory Information
 
 <p align="center">
-  <img src="assets/shell-meminfo.png.png" alt="NovaOS Memory Information" width="900">
+  <img src="assets/kernel-panic.png.png" alt="NovaOS Kernel Panic" width="900">
 </p>
 
 ---
@@ -36,7 +36,7 @@ Targeted for bare-metal `x86_64-elf`, NovaOS boots natively via the **Limine 8.x
 ## 🚨 Kernel Panic (Red Screen of Death)
 
 <p align="center">
-  <img src="assets/kernel-panic.png.png" alt="NovaOS Kernel Panic" width="900">
+  <img src="assets/shell-meminfo.png.png" alt="NovaOS Memory Information" width="900">
 </p>
 
 ---
